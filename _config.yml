@@ -26,7 +26,7 @@ author:
   name             : "Jiantong QIN"
   bio              : #"xx"
   location         : "Hong Kong SAR"
-  employer         : "The Chinese University of Hong Kong"
+  employer         : "CUHK"
   uri              : # URL
   email            : "jtqin@link.cuhk.edu.hk" 
 
@@ -41,12 +41,12 @@ author:
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  #bitbucket        : # Username - Update with your username on the site
+  #codepen          : # Username
+  #dribbble         : # Username
+  github           : "https://github.com/clearlove43967"
+  #kaggle           : # Username  
+  #stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
