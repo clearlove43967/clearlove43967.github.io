@@ -13,6 +13,8 @@ Currently, I am working on my Final Year Project under the supervision of Prof. 
 
 My research interest lies in Multimodal Large Language Model (MLLM) and trustworthy AI, and I am actively exploring various fields to broaden my knowledge and deepen my expertise.
 
-<p><strong style="color:red;">📰 NEWS</strong></p>
+<p><strong>📰 NEWS:</strong></p>
+
+- [2025.8.21] 🎉 One co-first-authored paper got accepted by EMNLP 2025 (main)！
 
 [Email](mailto:jtqin@link.cuhk.edu.hk) / [Github](https://github.com/clearlove43967)
