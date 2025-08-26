@@ -1,6 +1,7 @@
 ---
 title: "VISBIAS: Measuring Explicit and Implicit Social Biases in Vision-Language Models"
 collection: "publications"
+category: conferences
 permalink: "/publication/VISBIAS"
 date: "2025-03-10"
 venue: "EMNLP2025"
