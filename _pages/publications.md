@@ -1,5 +1,7 @@
 ---
-layout: default 
+permalink: /
+title: "About Me"
+author_profile: true
 title: "Publications"
 permalink: /publications/
 ---
