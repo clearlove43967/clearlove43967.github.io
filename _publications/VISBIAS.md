@@ -4,7 +4,7 @@ collection: "publications"
 category: conferences
 permalink: "/publication/VISBIAS"
 date: "2025-03-10"
-venue: "EMNLP2025"
+venue: "EMNLP"
 paperurl: "https://arxiv.org/abs/2503.07575"
 doi: "https://doi.org/10.48550/arXiv.2503.07575"
 codeurl: "https://github.com/your-repo/VISBIAS"
