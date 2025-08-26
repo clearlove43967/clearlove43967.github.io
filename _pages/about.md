@@ -16,5 +16,3 @@ My research interest lies in Multimodal Large Language Model (MLLM) and trustwor
 <p><strong>📰 NEWS:</strong></p>
 
 - [2025.8.21] 🎉 One co-first-authored paper got accepted by EMNLP 2025 (main)！
-
-[Email](mailto:jtqin@link.cuhk.edu.hk) / [Github](https://github.com/clearlove43967)
