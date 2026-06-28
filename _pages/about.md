@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Jiantong QIN, a final year undergraduate student majoring in Artificial Intelligence at The Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)). I am also a member of the Faculty of Engineering’s [ELITE Stream](https://www.erg.cuhk.edu.hk/erg/Elite), where I undertake rigorous and in-depth curriculums and receive multiple research opportunities.  
+Hello! My name is Jiantong QIN, an incoming Ph.D. student at The Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), where I will be supervised by Prof. Helen Meng.
 
-Currently, I am working on my Final Year Project under the supervision of Prof. [Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/home), focusing on Multimodal LLM for UI code generation. I am fortunate to be guided by Mr. [Donald Lam](https://donaldlamnl.github.io/DonaldLamNL/home#!/DonaldLamNL/home) and Mr. [Jingyu Xiao](https://whalexiao.github.io/). Besides, I am also working closely with Dr. [Jen-tse Huang](https://penguinnnnn.github.io/) on evaluating AI models through social science. 
+Before that, I obtained my B.Sc. in Artificial Intelligence at CUHK in 2026 as a member of the Faculty of Engineering’s [ELITE Stream](https://www.erg.cuhk.edu.hk/erg/Elite). During my undergraduate study, I undertook rigorous and in-depth curriculums and received multiple research opportunities. I was fortunate to be mentored by Mr. [Jingyu Xiao](https://whalexiao.github.io/) and Mr. [Donald Lam](https://donaldlamnl.github.io/DonaldLamNL/home#!/DonaldLamNL/home). In addition, I am also working closely with Dr. [Jen-tse Huang](https://penguinnnnn.github.io/) on evaluating AI models through the lens of social science.
 
-My research interest lies in Multimodal Large Language Model (MLLM) and trustworthy AI, and I am actively exploring various fields to broaden my knowledge and deepen my expertise.
+
+Currently, my research focuses on LLM-based agents, with particular interests in Research Agents and reasoning-enhanced Agentic Retrieval-Augmented Generation (RAG). More broadly, I am interested in understanding and improving the reliability, reasoning, and decision-making capabilities of AI agents. I am also actively exploring emerging research directions to broaden my knowledge and deepen my expertise.
 
 <p><strong>📰 NEWS:</strong></p>
 
