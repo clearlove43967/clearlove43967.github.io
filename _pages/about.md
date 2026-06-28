@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Jiantong QIN, an incoming Ph.D. student at The Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), where I will be supervised by Prof. Helen Meng.
+Hello! My name is Jiantong QIN, an incoming Ph.D. student at The Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), where I will be supervised by Prof. [Helen Meng](https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/).
 
 Before that, I obtained my B.Sc. in Artificial Intelligence at CUHK in 2026 as a member of the Faculty of Engineering’s [ELITE Stream](https://www.erg.cuhk.edu.hk/erg/Elite). During my undergraduate study, I undertook rigorous and in-depth curriculums and received multiple research opportunities. I was fortunate to be mentored by Mr. [Jingyu Xiao](https://whalexiao.github.io/) and Mr. [Donald Lam](https://donaldlamnl.github.io/DonaldLamNL/home#!/DonaldLamNL/home). In addition, I am also working closely with Dr. [Jen-tse Huang](https://penguinnnnn.github.io/) on evaluating AI models through the lens of social science.
 
