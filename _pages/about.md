@@ -12,7 +12,7 @@ Hello! My name is Jiantong QIN, an incoming Ph.D. student at The Chinese Univers
 Before that, I received my B.Sc. in Artificial Intelligence from CUHK in 2026 as a member of the Faculty of Engineering's ELITE Stream, supervised by Prof. [Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/home). I am also working closely with Dr. [Jen-tse Huang](https://penguinnnnn.github.io/) on evaluating AI models from social science perspectives.
 
 
-Currently, my research focuses on LLM-based agents, with particular interests in Research Agents and reasoning-enhanced Agentic Retrieval-Augmented Generation (RAG). More broadly, I am interested in understanding and improving the reliability, reasoning, and decision-making capabilities of AI agents. I am also actively exploring emerging research directions to broaden my knowledge and deepen my expertise.
+Currently, my research focuses on LLM-based agents, with particular interests in Agent Safety and AI Auditing. More broadly, I am interested in understanding and improving the reliability, reasoning, and decision-making capabilities of AI agents. I am also actively exploring emerging research directions to broaden my knowledge and deepen my expertise.
 
 <p><strong>📰 NEWS:</strong></p>
 
