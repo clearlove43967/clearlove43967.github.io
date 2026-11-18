@@ -1,0 +1,15 @@
+---
+layout: academic
+---
+<div class="paper-detail">
+  <a class="text-link back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
+  <p class="eyebrow">{{ page.venue_short }} / {{ page.year }}</p>
+  <h1>{{ page.title }}</h1>
+  <div class="authors">{{ page.authors | markdownify }}</div>
+  <p class="publication-venue">{{ page.venue }}</p>
+  <p class="contribution-note">* Equal contribution · † Corresponding author</p>
+  <p class="paper-summary">{{ page.summary }}</p>
+  {% if page.paperurl %}<a class="button button-primary" href="{{ page.paperurl }}">Read the paper <span aria-hidden="true">↗</span></a>{% endif %}
+  {{ content }}
+  <section id="citation" class="citation-section"><div class="section-heading"><h2>Citation<span>.</span></h2><button type="button" class="button button-outline" data-copy-citation>Copy BibTeX</button></div><pre><code id="bibtex">{{ page.bibtex | escape }}</code></pre><p class="copy-status" role="status" aria-live="polite"></p></section>
+</div>

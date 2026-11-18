@@ -1,39 +1,14 @@
 ---
-layout: archive
-title: "Publications"
+layout: academic
+title: Publications
 permalink: /publications/
-author_profile: true
+description: "Publications by Jiantong Qin on trustworthy AI, social bias in vision-language models, LLM morality, and reusable UI code generation."
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">- **VISBIAS: Measuring Explicit and Implicit Social Biases in Vision-Language Models.**  
-  Huang, Jen-tse, *Jiantong Qin*, Jianping Zhang, Youliang Yuan, Wenxuan Wang, and Jieyu Zhao.  
-  [EMNLP 2025](https://2025.emnlp.org/)
-</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% assign papers = site.publications | sort: 'date' | reverse %}
+{% assign conferences = papers | where: 'kind', 'conference' %}
+{% assign preprints = papers | where: 'kind', 'preprint' %}
+<header class="page-heading"><p class="eyebrow">RESEARCH / {{ papers.last.year }}–{{ papers.first.year }}</p><h1>Publications<span>.</span></h1><p>From understanding AI behavior to building more capable systems.</p></header>
+<div class="publication-toolbar"><div class="filter-buttons" role="group" aria-label="Filter publications"><button type="button" class="active" data-filter="all" aria-pressed="true">All <span>{{ papers.size }}</span></button><button type="button" data-filter="conference" aria-pressed="false">Conference <span>{{ conferences.size }}</span></button><button type="button" data-filter="preprint" aria-pressed="false">Preprint <span>{{ preprints.size }}</span></button></div><a class="text-link" href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a></div>
+<p class="filter-status sr-only" role="status" aria-live="polite"></p>
+<div class="publication-list">{% assign papers = site.publications | sort: 'date' | reverse %}{% for paper in papers %}{% include publication-card.html %}{% endfor %}</div>
+<p class="contribution-note">* Equal contribution · † Corresponding author</p>

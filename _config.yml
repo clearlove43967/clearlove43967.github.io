@@ -13,7 +13,7 @@ title                    : "Jiantong QIN's Personal Homepage "
 title_separator          : "-"
 name                     : &name "Jiantong QIN"
 description              : &description "Homepage of Jiantong QIN"
-url                      : https://clearlove43967.github.io/
+url                      : https://clearlove43967.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clearlove43967/clearlove43967.github.io"
 
@@ -181,6 +181,8 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - docs
+  - scripts
   - tmp
   - vendor
 keep_files:
@@ -350,3 +352,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Live visitor geography: paste the d= identifier from your own ClustrMaps widget.
+# See docs/MAINTENANCE.md. Disabled until you configure a real account.
+visitor_map:
+  enabled: false
+  clustrmaps_id: ""
