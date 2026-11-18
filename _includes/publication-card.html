@@ -1,0 +1,10 @@
+<article class="publication-card" data-publication data-kind="{{ paper.kind }}">
+  <div class="publication-meta"><span class="venue-badge{% if paper.kind == 'preprint' %} preprint-badge{% endif %}">{{ paper.venue_short }}</span><span class="publication-year">{{ paper.year }}</span></div>
+  <div class="publication-body">
+    <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+    <div class="authors">{{ paper.authors | markdownify }}</div>
+    <p class="publication-venue">{{ paper.venue }}</p>
+    <p class="publication-summary">{{ paper.summary }}</p>
+    <div class="paper-links">{% if paper.paperurl %}<a href="{{ paper.paperurl }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}{% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}<a href="{{ paper.url | relative_url }}#citation">Cite <span aria-hidden="true">↗</span></a></div>
+  </div>
+</article>

@@ -1,0 +1,7 @@
+<section class="visitor-section section-grid" aria-labelledby="visitor-title"><div class="section-label"><p class="eyebrow">A SMALL WORLD</p><h2 id="visitor-title">Hello, world<span>.</span></h2><p>Thanks for stopping by,<br>wherever you are.</p></div><div class="visitor-panel">
+{% if site.visitor_map.enabled and site.visitor_map.clustrmaps_id != '' and site.visitor_map.clustrmaps_id %}
+<div class="visitor-widget"><script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d={{ site.visitor_map.clustrmaps_id | uri_escape }}&amp;cl=ffffff&amp;w=a"></script></div><p class="map-note">Visitor locations are approximate, based on IP addresses. <a href="https://clustrmaps.com/">Statistics by ClustrMaps ↗</a></p>
+{% else %}
+<img class="world-map" src="{{ '/images/world-map.svg' | relative_url }}" alt="World map. Live visitor statistics are not enabled yet." width="800" height="340" loading="lazy"><p class="map-note"><span class="map-status" aria-hidden="true"></span> Visitor map coming soon · Live statistics are not enabled yet.</p>
+{% endif %}
+</div></section>

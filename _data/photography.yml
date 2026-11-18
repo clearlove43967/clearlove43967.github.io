@@ -1,0 +1,10 @@
+# Upload photographs to images/photography/, then add entries here.
+# Keep this as [] until you add your first photograph. See docs/MAINTENANCE.md.
+# Example (replace [] with a list):
+# - image: /images/photography/hong-kong.jpg
+#   title: "An afternoon in Hong Kong"
+#   alt: "Describe what is visible in the photograph"
+#   location: "Hong Kong"
+#   date: "2026-11"
+#   category: "City"
+[]
